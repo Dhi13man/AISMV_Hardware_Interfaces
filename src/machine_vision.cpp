@@ -3,7 +3,7 @@
 
 /// Interface controlling the machine vision system through SPI communication
 ///
-/// SDA (Pixy 9) -> 21, SCL (Pixy 5) -> 22, CLK -> 18
+/// SDA (Pixy 9) -> 21, SCL (Pixy 5) -> 22, Ground (Pixy 6) -> GND
 class MVInterface {
   private:
   Pixy2I2C pixy;
@@ -13,11 +13,13 @@ class MVInterface {
     pixy = usedPixy;
   }
 
+  /// Finds out how many blocks (targets) are detected by Pixy2.
   int getNumberOfTargets() {
     pixy.ccc.getBlocks();
     return pixy.ccc.numBlocks;
   }
 
+  // Detect all blocks (targets) and finds the nearest target, by virtue of bounding box area
   Block detectAndGetNearest() {
     pixy.ccc.getBlocks();
     int largestArea = INT_MIN, largestAreaIndex = 0;
@@ -31,8 +33,14 @@ class MVInterface {
     return pixy.ccc.blocks[largestAreaIndex];
   }
 
+  ~MVInterface() {
+    pixy.~TPixy2();
+  }
+
 };
 
+
+/// Depends on Ultrasound Sensor to avoid plants and obstacles in Farmland
 class ObstacleInterface {
   private:
   /// Pins for using Ultrasound sensor for obstacle avoiding

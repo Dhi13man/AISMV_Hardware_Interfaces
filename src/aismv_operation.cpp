@@ -43,14 +43,15 @@ class AISMVOperator {
     else if (target.m_x > 275)
       sabertoothController.hardRight();
     else if (target.m_x >= 40 && target.m_x <= 275) {
-      if (target.m_y < 200)
+      if (target.m_y < 190)
         sabertoothController.forward();
       else {
         sabertoothController.stop();
         delay(500);
-        soilController.detectMoistureThenWater();
         sabertoothController.forward();
         delay(1000);
+        if (target.m_signature == 1)
+          soilController.detectMoistureThenWater();
       }
     }
   }
@@ -70,6 +71,7 @@ class AISMVOperator {
   }
 
   void scanTarget(char scanDirection = 'l') {
+    state = "Scanning Target";
     bool isTargetFound = false;
     // Scan in Front
     isTargetFound = scanDirectionForTime("forward", 1000);
@@ -89,8 +91,16 @@ class AISMVOperator {
         if (!isTargetFound)
           isTargetFound = scanDirectionForTime("hardRight", 1000);
     }
-    if (isTargetFound)
-      moveTowardsTarget(mvController->detectAndGetNearest());
+
+    // Operate Differently based on the signature of target
+    if (isTargetFound) {
+      Block nearestTarget = mvController->detectAndGetNearest();
+      moveTowardsTarget(nearestTarget);
+    }
+  }
+
+  ~AISMVOperator() {
+    sabertoothController.~SabertoothInterface();
   }
 };
 

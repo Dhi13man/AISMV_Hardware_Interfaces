@@ -138,4 +138,8 @@ class SoilInterface {
         delay(waterTimeMilliseconds);
         l298Controller.stop();
     }
+
+    ~SoilInterface() {
+        moistureArmServo.detach();
+    }
 };
