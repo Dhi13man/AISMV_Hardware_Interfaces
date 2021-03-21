@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "sstream": "cpp",
+        "ostream": "cpp",
+        "cmath": "cpp",
+        "functional": "cpp"
+    }
+}
