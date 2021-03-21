@@ -18,9 +18,6 @@ class SoilInterface {
     /// Analog reading from Moisture sensor through this pin
     int sensorPin, analogMoistureValue;
 
-    /// State of The Soil Interface System
-    String systemState;
-
     /// Target moisture that plant requires, in milliLiter.
     ///
     /// Provided by user using mobile app and stored persistently in EEPROM.
@@ -30,6 +27,14 @@ class SoilInterface {
     ///
     /// Provided by user using mobile app and stored persistently in EEPROM.
     float moisturePerMilliliter;
+
+    /// Direction of the farm that AISMV will start in
+    ///
+    /// Provided by user using mobile app and stored persistently in EEPROM.
+    char farmDirection;
+
+    /// State of The Soil Interface System
+    String systemState;
 
     void raiseArm() {
         systemState = "Raising Arm";
@@ -71,10 +76,17 @@ class SoilInterface {
             EEPROM.commit();
         }
         //  For Moisture per Milliliter
-        EEPROM.get(11, moisturePerMilliliter);
+        EEPROM.get<float>(11, moisturePerMilliliter);
         if (isnan(moisturePerMilliliter) || moisturePerMilliliter == NAN) {         // Initial Null Check
             moisturePerMilliliter = -1;
             EEPROM.put<float>(11, moisturePerMilliliter);
+            EEPROM.commit();
+        }
+        //  For Moisture per Milliliter
+        EEPROM.get<char>(21, farmDirection);
+        if (isnan(farmDirection) || farmDirection == NAN) {         // Initial Null Check
+            farmDirection = 'l';
+            EEPROM.put<char>(21, farmDirection);
             EEPROM.commit();
         }
         systemState = "Initialized";
@@ -86,6 +98,11 @@ class SoilInterface {
     /// [getParameterType] == 'm' -> Currently set [moisturePerMilliliter] is returned
     float getSoilParameter(char getParameterType='t') {
         return (getParameterType == 'm') ? moisturePerMilliliter : targetMoisturePercentage;
+    }
+
+    /// Get farm direction set in AISMV
+    char getFarmDirection() {
+        return farmDirection;
     }
 
     /// Update chosen Soil Parameter value to [updatedValue]
@@ -105,6 +122,14 @@ class SoilInterface {
             EEPROM.commit();
             return 0;
         }
+        return 1;
+    }
+
+    /// Update farm direction set in AISMV
+    int updateFarmDirection(char updatedValue) {
+        farmDirection = updatedValue;
+        EEPROM.put<char>(21, farmDirection);
+        EEPROM.commit();
         return 1;
     }
 

@@ -99,6 +99,10 @@ class AISMVOperator {
     }
   }
 
+  String getState() {
+    return state;
+  }
+
   ~AISMVOperator() {
     sabertoothController.~SabertoothInterface();
   }
