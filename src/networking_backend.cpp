@@ -38,6 +38,11 @@ class WebServerBackendInterface {
       });
   }
 
+  ~WebServerBackendInterface() {
+    server->end();
+    server->~AsyncWebServer();
+  }
+
   public:
   WebServerBackendInterface(AISMVOperator &aismvOperator) {
     // To extract from and set properties into AISMV
