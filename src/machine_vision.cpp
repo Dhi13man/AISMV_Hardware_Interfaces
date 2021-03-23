@@ -32,11 +32,6 @@ class MVInterface {
     }
     return pixy.ccc.blocks[largestAreaIndex];
   }
-
-  ~MVInterface() {
-    pixy.~TPixy2();
-  }
-
 };
 
 

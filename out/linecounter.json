@@ -1,0 +1,1924 @@
+{
+    "extension": "linecounter",
+    "version": "0.2.7",
+    "workspace": "x:\\Soft_Projects\\Arduino\\AISMV",
+    "linecount": [
+        {
+            "version": "0.2.7",
+            "counttime": "2021-03-23 00:29:46",
+            "filesum": 267,
+            "codesum": 13001,
+            "commentsum": 1958,
+            "blanksum": 1900,
+            "statistics": {
+                ".cpp": {
+                    "code": 5982,
+                    "comment": 667,
+                    "blank": 852
+                },
+                "": {
+                    "code": 565,
+                    "comment": 80,
+                    "blank": 88
+                },
+                ".code-workspace": {
+                    "code": 18,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".ini": {
+                    "code": 7,
+                    "comment": 9,
+                    "blank": 1
+                },
+                ".h": {
+                    "code": 2682,
+                    "comment": 728,
+                    "blank": 542
+                },
+                ".txt": {
+                    "code": 142,
+                    "comment": 1,
+                    "blank": 45
+                },
+                ".ino": {
+                    "code": 721,
+                    "comment": 264,
+                    "blank": 195
+                },
+                ".json": {
+                    "code": 333,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".properties": {
+                    "code": 20,
+                    "comment": 2,
+                    "blank": 0
+                },
+                ".md": {
+                    "code": 15,
+                    "comment": 3,
+                    "blank": 8
+                },
+                ".build_flags": {
+                    "code": 1,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".checksum": {
+                    "code": 1,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".htm": {
+                    "code": 707,
+                    "comment": 0,
+                    "blank": 51
+                },
+                ".files": {
+                    "code": 0,
+                    "comment": 3,
+                    "blank": 0
+                },
+                ".a": {
+                    "code": 2,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".yaml": {
+                    "code": 62,
+                    "comment": 6,
+                    "blank": 14
+                },
+                ".xml": {
+                    "code": 482,
+                    "comment": 49,
+                    "blank": 2
+                },
+                ".lock": {
+                    "code": 153,
+                    "comment": 1,
+                    "blank": 0
+                },
+                ".dart": {
+                    "code": 71,
+                    "comment": 57,
+                    "blank": 16
+                },
+                ".html": {
+                    "code": 26,
+                    "comment": 15,
+                    "blank": 4
+                },
+                ".cc": {
+                    "code": 3,
+                    "comment": 3,
+                    "blank": 3
+                },
+                ".cmake": {
+                    "code": 12,
+                    "comment": 0,
+                    "blank": 3
+                },
+                ".xcworkspacedata": {
+                    "code": 14,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".swift": {
+                    "code": 12,
+                    "comment": 0,
+                    "blank": 1
+                },
+                ".bat": {
+                    "code": 27,
+                    "comment": 0,
+                    "blank": 8
+                },
+                ".plist": {
+                    "code": 87,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".m": {
+                    "code": 8,
+                    "comment": 0,
+                    "blank": 4
+                },
+                ".gradle": {
+                    "code": 81,
+                    "comment": 3,
+                    "blank": 17
+                },
+                ".xcsettings": {
+                    "code": 16,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".xcconfig": {
+                    "code": 13,
+                    "comment": 1,
+                    "blank": 0
+                },
+                ".rc": {
+                    "code": 64,
+                    "comment": 32,
+                    "blank": 28
+                },
+                ".manifest": {
+                    "code": 20,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".sh": {
+                    "code": 11,
+                    "comment": 2,
+                    "blank": 0
+                },
+                ".iml": {
+                    "code": 45,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".storyboard": {
+                    "code": 63,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".xcscheme": {
+                    "code": 91,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".pbxproj": {
+                    "code": 431,
+                    "comment": 27,
+                    "blank": 13
+                },
+                ".kt": {
+                    "code": 4,
+                    "comment": 0,
+                    "blank": 2
+                },
+                ".java": {
+                    "code": 9,
+                    "comment": 5,
+                    "blank": 3
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": ".gitignore"
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\.sconsign37.dblite",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\firmware.bin",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\firmware.elf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\FrameworkArduino\\base64.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\FrameworkArduino\\cbuf.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\FrameworkArduino\\Esp.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\FrameworkArduino\\esp32-hal-adc.c.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\FrameworkArduino\\esp32-hal-bt.c.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\FrameworkArduino\\esp32-hal-cpu.c.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\FrameworkArduino\\esp32-hal-dac.c.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\FrameworkArduino\\esp32-hal-gpio.c.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\FrameworkArduino\\esp32-hal-i2c.c.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\FrameworkArduino\\esp32-hal-ledc.c.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\FrameworkArduino\\esp32-hal-log.c.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\FrameworkArduino\\esp32-hal-matrix.c.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\FrameworkArduino\\esp32-hal-misc.c.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\FrameworkArduino\\esp32-hal-psram.c.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\FrameworkArduino\\esp32-hal-rmt.c.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\FrameworkArduino\\esp32-hal-sigmadelta.c.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\FrameworkArduino\\esp32-hal-spi.c.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\FrameworkArduino\\esp32-hal-time.c.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\FrameworkArduino\\esp32-hal-timer.c.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\FrameworkArduino\\esp32-hal-touch.c.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\FrameworkArduino\\esp32-hal-uart.c.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\FrameworkArduino\\FunctionalInterrupt.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\FrameworkArduino\\HardwareSerial.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\FrameworkArduino\\IPAddress.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\FrameworkArduino\\IPv6Address.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\FrameworkArduino\\libb64\\cdecode.c.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\FrameworkArduino\\libb64\\cencode.c.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\FrameworkArduino\\main.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\FrameworkArduino\\MD5Builder.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\FrameworkArduino\\Print.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\FrameworkArduino\\stdlib_noniso.c.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\FrameworkArduino\\Stream.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\FrameworkArduino\\StreamString.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\FrameworkArduino\\wiring_pulse.c.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\FrameworkArduino\\wiring_shift.c.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\FrameworkArduino\\WMath.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\FrameworkArduino\\WString.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\lib17b\\EEPROM\\EEPROM.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\lib17b\\libEEPROM.a",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\lib64b\\libWire.a",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\lib64b\\Wire\\Wire.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\lib784\\FS\\FS.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\lib784\\FS\\vfs_api.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\lib784\\libFS.a",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\libbe5\\libWiFi.a",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\libbe5\\WiFi\\ETH.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\libbe5\\WiFi\\WiFi.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\libbe5\\WiFi\\WiFiAP.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\libbe5\\WiFi\\WiFiClient.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\libbe5\\WiFi\\WiFiGeneric.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\libbe5\\WiFi\\WiFiMulti.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\libbe5\\WiFi\\WiFiScan.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\libbe5\\WiFi\\WiFiServer.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\libbe5\\WiFi\\WiFiSTA.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\libbe5\\WiFi\\WiFiUdp.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\libc20\\ESP32_Servo\\ESP32_Servo.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\libc20\\libESP32_Servo.a",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\libca1\\ASyncTCP\\AsyncTCP.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\libca1\\libASyncTCP.a",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\libcc9\\ESPAsyncWebServer-esphome\\AsyncEventSource.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\libcc9\\ESPAsyncWebServer-esphome\\AsyncWebSocket.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\libcc9\\ESPAsyncWebServer-esphome\\SPIFFSEditor.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\libcc9\\ESPAsyncWebServer-esphome\\WebAuthentication.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\libcc9\\ESPAsyncWebServer-esphome\\WebHandlers.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\libcc9\\ESPAsyncWebServer-esphome\\WebRequest.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\libcc9\\ESPAsyncWebServer-esphome\\WebResponses.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\libcc9\\ESPAsyncWebServer-esphome\\WebServer.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\libcc9\\libESPAsyncWebServer-esphome.a",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".pio\\build\\nodemcu-32s\\libfe2\\libPixy2.a"
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\libFrameworkArduino.a",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".pio\\build\\nodemcu-32s\\libFrameworkArduinoVariant.a"
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\partitions.bin",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\src\\aismv_operation.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\src\\machine_vision.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\src\\main.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\src\\motor_drivers.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\src\\networking_backend.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".pio\\build\\nodemcu-32s\\src\\soil_system.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".pio\\build\\project.checksum"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".pio\\libdeps\\nodemcu-32s\\Arduino-ESP32-Rest-Client\\.gitignore"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".pio\\libdeps\\nodemcu-32s\\Arduino-ESP32-Rest-Client\\.piopm"
+                },
+                {
+                    "blank": 6,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": ".pio\\libdeps\\nodemcu-32s\\Arduino-ESP32-Rest-Client\\examples\\SimpleGet\\simpleget.ino"
+                },
+                {
+                    "blank": 6,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": ".pio\\libdeps\\nodemcu-32s\\Arduino-ESP32-Rest-Client\\examples\\SimplePost\\simplepost.ino"
+                },
+                {
+                    "blank": 0,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": ".pio\\libdeps\\nodemcu-32s\\Arduino-ESP32-Rest-Client\\library.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 1,
+                    "filename": ".pio\\libdeps\\nodemcu-32s\\Arduino-ESP32-Rest-Client\\library.properties"
+                },
+                {
+                    "blank": 47,
+                    "code": 219,
+                    "comment": 3,
+                    "filename": ".pio\\libdeps\\nodemcu-32s\\Arduino-ESP32-Rest-Client\\LICENSE"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": ".pio\\libdeps\\nodemcu-32s\\Arduino-ESP32-Rest-Client\\README.md"
+                },
+                {
+                    "blank": 23,
+                    "code": 145,
+                    "comment": 3,
+                    "filename": ".pio\\libdeps\\nodemcu-32s\\Arduino-ESP32-Rest-Client\\RestClient.cpp"
+                },
+                {
+                    "blank": 5,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": ".pio\\libdeps\\nodemcu-32s\\Arduino-ESP32-Rest-Client\\RestClient.h"
+                },
+                {
+                    "blank": 0,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "aismv-workspace.code-workspace"
+                },
+                {
+                    "blank": 5,
+                    "code": 13,
+                    "comment": 1,
+                    "filename": "include\\README"
+                },
+                {
+                    "blank": 152,
+                    "code": 1107,
+                    "comment": 99,
+                    "filename": "lib\\ASyncTCP\\AsyncTCP.cpp"
+                },
+                {
+                    "blank": 36,
+                    "code": 154,
+                    "comment": 48,
+                    "filename": "lib\\ASyncTCP\\AsyncTCP.h"
+                },
+                {
+                    "blank": 24,
+                    "code": 159,
+                    "comment": 97,
+                    "filename": "lib\\ESP32_Servo\\ESP32_Servo.cpp"
+                },
+                {
+                    "blank": 12,
+                    "code": 42,
+                    "comment": 115,
+                    "filename": "lib\\ESP32_Servo\\ESP32_Servo.h"
+                },
+                {
+                    "blank": 52,
+                    "code": 277,
+                    "comment": 41,
+                    "filename": "lib\\ESPAsyncWebServer-esphome\\AsyncEventSource.cpp"
+                },
+                {
+                    "blank": 19,
+                    "code": 96,
+                    "comment": 24,
+                    "filename": "lib\\ESPAsyncWebServer-esphome\\AsyncEventSource.h"
+                },
+                {
+                    "blank": 27,
+                    "code": 188,
+                    "comment": 37,
+                    "filename": "lib\\ESPAsyncWebServer-esphome\\AsyncJson.h"
+                },
+                {
+                    "blank": 160,
+                    "code": 1073,
+                    "comment": 69,
+                    "filename": "lib\\ESPAsyncWebServer-esphome\\AsyncWebSocket.cpp"
+                },
+                {
+                    "blank": 50,
+                    "code": 257,
+                    "comment": 46,
+                    "filename": "lib\\ESPAsyncWebServer-esphome\\AsyncWebSocket.h"
+                },
+                {
+                    "blank": 18,
+                    "code": 66,
+                    "comment": 4,
+                    "filename": "lib\\ESPAsyncWebServer-esphome\\AsyncWebSynchronization.h"
+                },
+                {
+                    "blank": 47,
+                    "code": 580,
+                    "comment": 0,
+                    "filename": "lib\\ESPAsyncWebServer-esphome\\edit.htm"
+                },
+                {
+                    "blank": 76,
+                    "code": 347,
+                    "comment": 68,
+                    "filename": "lib\\ESPAsyncWebServer-esphome\\ESPAsyncWebServer.h"
+                },
+                {
+                    "blank": 7,
+                    "code": 37,
+                    "comment": 4,
+                    "filename": "lib\\ESPAsyncWebServer-esphome\\examples\\CaptivePortal\\CaptivePortal.ino"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 3,
+                    "filename": "lib\\ESPAsyncWebServer-esphome\\examples\\ESP_AsyncFSBrowser\\data\\.exclude.files"
+                },
+                {
+                    "filename": "lib\\ESPAsyncWebServer-esphome\\examples\\ESP_AsyncFSBrowser\\data\\favicon.ico",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 4,
+                    "code": 127,
+                    "comment": 0,
+                    "filename": "lib\\ESPAsyncWebServer-esphome\\examples\\ESP_AsyncFSBrowser\\data\\index.htm"
+                },
+                {
+                    "blank": 24,
+                    "code": 193,
+                    "comment": 4,
+                    "filename": "lib\\ESPAsyncWebServer-esphome\\examples\\ESP_AsyncFSBrowser\\ESP_AsyncFSBrowser.ino"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "lib\\ESPAsyncWebServer-esphome\\examples\\regex_patterns\\.test.build_flags"
+                },
+                {
+                    "blank": 17,
+                    "code": 43,
+                    "comment": 17,
+                    "filename": "lib\\ESPAsyncWebServer-esphome\\examples\\regex_patterns\\regex_patterns.ino"
+                },
+                {
+                    "blank": 14,
+                    "code": 52,
+                    "comment": 8,
+                    "filename": "lib\\ESPAsyncWebServer-esphome\\examples\\simple_server\\simple_server.ino"
+                },
+                {
+                    "blank": 18,
+                    "code": 523,
+                    "comment": 3,
+                    "filename": "lib\\ESPAsyncWebServer-esphome\\SPIFFSEditor.cpp"
+                },
+                {
+                    "blank": 2,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "lib\\ESPAsyncWebServer-esphome\\SPIFFSEditor.h"
+                },
+                {
+                    "blank": 18,
+                    "code": 155,
+                    "comment": 20,
+                    "filename": "lib\\ESPAsyncWebServer-esphome\\StringArray.h"
+                },
+                {
+                    "blank": 19,
+                    "code": 185,
+                    "comment": 32,
+                    "filename": "lib\\ESPAsyncWebServer-esphome\\WebAuthentication.cpp"
+                },
+                {
+                    "blank": 5,
+                    "code": 8,
+                    "comment": 21,
+                    "filename": "lib\\ESPAsyncWebServer-esphome\\WebAuthentication.h"
+                },
+                {
+                    "blank": 11,
+                    "code": 107,
+                    "comment": 22,
+                    "filename": "lib\\ESPAsyncWebServer-esphome\\WebHandlerImpl.h"
+                },
+                {
+                    "blank": 32,
+                    "code": 153,
+                    "comment": 41,
+                    "filename": "lib\\ESPAsyncWebServer-esphome\\WebHandlers.cpp"
+                },
+                {
+                    "blank": 98,
+                    "code": 871,
+                    "comment": 48,
+                    "filename": "lib\\ESPAsyncWebServer-esphome\\WebRequest.cpp"
+                },
+                {
+                    "blank": 12,
+                    "code": 98,
+                    "comment": 26,
+                    "filename": "lib\\ESPAsyncWebServer-esphome\\WebResponseImpl.h"
+                },
+                {
+                    "blank": 75,
+                    "code": 544,
+                    "comment": 92,
+                    "filename": "lib\\ESPAsyncWebServer-esphome\\WebResponses.cpp"
+                },
+                {
+                    "blank": 30,
+                    "code": 143,
+                    "comment": 20,
+                    "filename": "lib\\ESPAsyncWebServer-esphome\\WebServer.cpp"
+                },
+                {
+                    "blank": 7,
+                    "code": 25,
+                    "comment": 24,
+                    "filename": "lib\\Pixy2\\examples\\ccc_hello_world\\ccc_hello_world.ino"
+                },
+                {
+                    "blank": 15,
+                    "code": 41,
+                    "comment": 26,
+                    "filename": "lib\\Pixy2\\examples\\ccc_i2c_uart\\ccc_i2c_uart.ino"
+                },
+                {
+                    "blank": 15,
+                    "code": 41,
+                    "comment": 23,
+                    "filename": "lib\\Pixy2\\examples\\ccc_pantilt\\ccc_pantilt.ino"
+                },
+                {
+                    "blank": 27,
+                    "code": 78,
+                    "comment": 36,
+                    "filename": "lib\\Pixy2\\examples\\ccc_zumo_chase\\ccc_zumo_chase.ino"
+                },
+                {
+                    "blank": 10,
+                    "code": 33,
+                    "comment": 19,
+                    "filename": "lib\\Pixy2\\examples\\line_get_all\\line_get_all.ino"
+                },
+                {
+                    "blank": 11,
+                    "code": 21,
+                    "comment": 17,
+                    "filename": "lib\\Pixy2\\examples\\line_hello_world\\line_hello_world.ino"
+                },
+                {
+                    "blank": 18,
+                    "code": 81,
+                    "comment": 43,
+                    "filename": "lib\\Pixy2\\examples\\line_zumo_demo\\line_zumo_demo.ino"
+                },
+                {
+                    "blank": 11,
+                    "code": 20,
+                    "comment": 17,
+                    "filename": "lib\\Pixy2\\examples\\test_other_functions\\test_other_functions.ino"
+                },
+                {
+                    "blank": 7,
+                    "code": 23,
+                    "comment": 26,
+                    "filename": "lib\\Pixy2\\examples\\video_get_rgb\\video_get_rgb.ino"
+                },
+                {
+                    "blank": 0,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "lib\\Pixy2\\keywords.txt"
+                },
+                {
+                    "blank": 15,
+                    "code": 62,
+                    "comment": 21,
+                    "filename": "lib\\Pixy2\\PIDLoop.h"
+                },
+                {
+                    "blank": 10,
+                    "code": 41,
+                    "comment": 15,
+                    "filename": "lib\\Pixy2\\Pixy2.h"
+                },
+                {
+                    "blank": 18,
+                    "code": 98,
+                    "comment": 35,
+                    "filename": "lib\\Pixy2\\Pixy2CCC.h"
+                },
+                {
+                    "blank": 12,
+                    "code": 58,
+                    "comment": 18,
+                    "filename": "lib\\Pixy2\\Pixy2I2C.h"
+                },
+                {
+                    "blank": 44,
+                    "code": 243,
+                    "comment": 34,
+                    "filename": "lib\\Pixy2\\Pixy2Line.h"
+                },
+                {
+                    "blank": 12,
+                    "code": 55,
+                    "comment": 16,
+                    "filename": "lib\\Pixy2\\Pixy2SPI_SS.h"
+                },
+                {
+                    "blank": 12,
+                    "code": 52,
+                    "comment": 18,
+                    "filename": "lib\\Pixy2\\Pixy2UART.h"
+                },
+                {
+                    "blank": 9,
+                    "code": 44,
+                    "comment": 20,
+                    "filename": "lib\\Pixy2\\Pixy2Video.h"
+                },
+                {
+                    "blank": 63,
+                    "code": 337,
+                    "comment": 53,
+                    "filename": "lib\\Pixy2\\TPixy2.h"
+                },
+                {
+                    "blank": 9,
+                    "code": 37,
+                    "comment": 2,
+                    "filename": "lib\\README"
+                },
+                {
+                    "blank": 1,
+                    "code": 7,
+                    "comment": 9,
+                    "filename": "platformio.ini"
+                },
+                {
+                    "blank": 20,
+                    "code": 119,
+                    "comment": 11,
+                    "filename": "src\\aismv_operation.cpp"
+                },
+                {
+                    "blank": 11,
+                    "code": 53,
+                    "comment": 11,
+                    "filename": "src\\machine_vision.cpp"
+                },
+                {
+                    "blank": 6,
+                    "code": 14,
+                    "comment": 2,
+                    "filename": "src\\main.cpp"
+                },
+                {
+                    "blank": 18,
+                    "code": 84,
+                    "comment": 8,
+                    "filename": "src\\motor_drivers.cpp"
+                },
+                {
+                    "blank": 8,
+                    "code": 60,
+                    "comment": 12,
+                    "filename": "src\\networking_backend.cpp"
+                },
+                {
+                    "blank": 20,
+                    "code": 107,
+                    "comment": 47,
+                    "filename": "src\\soil_system.cpp"
+                },
+                {
+                    "blank": 3,
+                    "code": 8,
+                    "comment": 1,
+                    "filename": "test\\README"
+                },
+                {
+                    "blank": 0,
+                    "code": 146,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\.dart_tool\\package_config.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 93,
+                    "comment": 46,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\.dart_tool\\package_config_subset"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\.dart_tool\\version"
+                },
+                {
+                    "blank": 7,
+                    "code": 39,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\.gitignore"
+                },
+                {
+                    "blank": 0,
+                    "code": 134,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\.idea\\codeStyles\\Project.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 188,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\.idea\\libraries\\Dart_Packages.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\.idea\\libraries\\Dart_SDK.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\.idea\\libraries\\Flutter_Plugins.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\.idea\\libraries\\KotlinJavaRuntime.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\.idea\\misc.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\.idea\\modules.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\.idea\\runConfigurations\\main_dart.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 34,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\.idea\\workspace.xml"
+                },
+                {
+                    "blank": 2,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\.metadata"
+                },
+                {
+                    "blank": 0,
+                    "code": 29,
+                    "comment": 23,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\.packages"
+                },
+                {
+                    "blank": 0,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\aismv_application.iml"
+                },
+                {
+                    "blank": 1,
+                    "code": 10,
+                    "comment": 1,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\android\\.gitignore"
+                },
+                {
+                    "blank": 0,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\android\\aismv_application_android.iml"
+                },
+                {
+                    "blank": 10,
+                    "code": 46,
+                    "comment": 3,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\android\\app\\build.gradle"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 3,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\android\\app\\src\\debug\\AndroidManifest.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 30,
+                    "comment": 11,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\android\\app\\src\\main\\AndroidManifest.xml"
+                },
+                {
+                    "blank": 3,
+                    "code": 9,
+                    "comment": 5,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\android\\app\\src\\main\\java\\io\\flutter\\plugins\\GeneratedPluginRegistrant.java"
+                },
+                {
+                    "blank": 2,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\android\\app\\src\\main\\kotlin\\com\\dhi13man\\aismv_application\\MainActivity.kt"
+                },
+                {
+                    "blank": 1,
+                    "code": 4,
+                    "comment": 7,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\android\\app\\src\\main\\res\\drawable-v21\\launch_background.xml"
+                },
+                {
+                    "blank": 1,
+                    "code": 4,
+                    "comment": 7,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\android\\app\\src\\main\\res\\drawable\\launch_background.xml"
+                },
+                {
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 9,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\android\\app\\src\\main\\res\\values-night\\styles.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 9,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\android\\app\\src\\main\\res\\values\\styles.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 3,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\android\\app\\src\\profile\\AndroidManifest.xml"
+                },
+                {
+                    "blank": 4,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\android\\build.gradle"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\android\\gradle.properties"
+                },
+                {
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\android\\gradle\\wrapper\\gradle-wrapper.jar",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 1,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\android\\gradle\\wrapper\\gradle-wrapper.properties"
+                },
+                {
+                    "blank": 10,
+                    "code": 58,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\android\\gradlew"
+                },
+                {
+                    "blank": 8,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\android\\gradlew.bat"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\android\\local.properties"
+                },
+                {
+                    "blank": 3,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\android\\settings.gradle"
+                },
+                {
+                    "blank": 1,
+                    "code": 29,
+                    "comment": 3,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\ios\\.gitignore"
+                },
+                {
+                    "blank": 0,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\ios\\Flutter\\AppFrameworkInfo.plist"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\ios\\Flutter\\Debug.xcconfig"
+                },
+                {
+                    "blank": 0,
+                    "code": 11,
+                    "comment": 2,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\ios\\Flutter\\flutter_export_environment.sh"
+                },
+                {
+                    "blank": 0,
+                    "code": 11,
+                    "comment": 1,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\ios\\Flutter\\Generated.xcconfig"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\ios\\Flutter\\Release.xcconfig"
+                },
+                {
+                    "blank": 13,
+                    "code": 431,
+                    "comment": 27,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\ios\\Runner.xcodeproj\\project.pbxproj"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\ios\\Runner.xcodeproj\\project.xcworkspace\\contents.xcworkspacedata"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\ios\\Runner.xcodeproj\\project.xcworkspace\\xcshareddata\\IDEWorkspaceChecks.plist"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\ios\\Runner.xcodeproj\\project.xcworkspace\\xcshareddata\\WorkspaceSettings.xcsettings"
+                },
+                {
+                    "blank": 0,
+                    "code": 91,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\ios\\Runner.xcodeproj\\xcshareddata\\xcschemes\\Runner.xcscheme"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\ios\\Runner.xcworkspace\\contents.xcworkspacedata"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\ios\\Runner.xcworkspace\\xcshareddata\\IDEWorkspaceChecks.plist"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\ios\\Runner.xcworkspace\\xcshareddata\\WorkspaceSettings.xcsettings"
+                },
+                {
+                    "blank": 1,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\ios\\Runner\\AppDelegate.swift"
+                },
+                {
+                    "blank": 0,
+                    "code": 122,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Contents.json"
+                },
+                {
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Icon-App-1024x1024@1x.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Icon-App-20x20@1x.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Icon-App-20x20@2x.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Icon-App-20x20@3x.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Icon-App-29x29@1x.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Icon-App-29x29@2x.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Icon-App-29x29@3x.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Icon-App-40x40@1x.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Icon-App-40x40@2x.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Icon-App-40x40@3x.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Icon-App-60x60@2x.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Icon-App-60x60@3x.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Icon-App-76x76@1x.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Icon-App-76x76@2x.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset\\Icon-App-83.5x83.5@2x.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\ios\\Runner\\Assets.xcassets\\LaunchImage.imageset\\Contents.json"
+                },
+                {
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\ios\\Runner\\Assets.xcassets\\LaunchImage.imageset\\LaunchImage.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\ios\\Runner\\Assets.xcassets\\LaunchImage.imageset\\LaunchImage@2x.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\ios\\Runner\\Assets.xcassets\\LaunchImage.imageset\\LaunchImage@3x.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 2,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\ios\\Runner\\Assets.xcassets\\LaunchImage.imageset\\README.md"
+                },
+                {
+                    "blank": 0,
+                    "code": 37,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\ios\\Runner\\Base.lproj\\LaunchScreen.storyboard"
+                },
+                {
+                    "blank": 0,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\ios\\Runner\\Base.lproj\\Main.storyboard"
+                },
+                {
+                    "blank": 5,
+                    "code": 9,
+                    "comment": 3,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\ios\\Runner\\GeneratedPluginRegistrant.h"
+                },
+                {
+                    "blank": 4,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\ios\\Runner\\GeneratedPluginRegistrant.m"
+                },
+                {
+                    "blank": 0,
+                    "code": 45,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\ios\\Runner\\Info.plist"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\ios\\Runner\\Runner-Bridging-Header.h"
+                },
+                {
+                    "blank": 10,
+                    "code": 57,
+                    "comment": 47,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\lib\\main.dart"
+                },
+                {
+                    "blank": 0,
+                    "code": 153,
+                    "comment": 1,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\pubspec.lock"
+                },
+                {
+                    "blank": 14,
+                    "code": 62,
+                    "comment": 6,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\pubspec.yaml"
+                },
+                {
+                    "blank": 6,
+                    "code": 10,
+                    "comment": 3,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\README.md"
+                },
+                {
+                    "blank": 6,
+                    "code": 14,
+                    "comment": 10,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\test\\widget_test.dart"
+                },
+                {
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\web\\favicon.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\web\\icons\\Icon-192.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\web\\icons\\Icon-512.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 4,
+                    "code": 26,
+                    "comment": 15,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\web\\index.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\web\\manifest.json"
+                },
+                {
+                    "blank": 3,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\windows\\.gitignore"
+                },
+                {
+                    "blank": 13,
+                    "code": 46,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\windows\\CMakeLists.txt"
+                },
+                {
+                    "blank": 23,
+                    "code": 59,
+                    "comment": 1,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\windows\\flutter\\CMakeLists.txt"
+                },
+                {
+                    "blank": 3,
+                    "code": 3,
+                    "comment": 3,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\windows\\flutter\\generated_plugin_registrant.cc"
+                },
+                {
+                    "blank": 4,
+                    "code": 5,
+                    "comment": 5,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\windows\\flutter\\generated_plugin_registrant.h"
+                },
+                {
+                    "blank": 3,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\windows\\flutter\\generated_plugins.cmake"
+                },
+                {
+                    "blank": 9,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\windows\\runner\\CMakeLists.txt"
+                },
+                {
+                    "blank": 12,
+                    "code": 48,
+                    "comment": 4,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\windows\\runner\\flutter_window.cpp"
+                },
+                {
+                    "blank": 9,
+                    "code": 23,
+                    "comment": 8,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\windows\\runner\\flutter_window.h"
+                },
+                {
+                    "blank": 10,
+                    "code": 28,
+                    "comment": 4,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\windows\\runner\\main.cpp"
+                },
+                {
+                    "blank": 1,
+                    "code": 9,
+                    "comment": 6,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\windows\\runner\\resource.h"
+                },
+                {
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\windows\\runner\\resources\\app_icon.ico",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 8,
+                    "code": 53,
+                    "comment": 5,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\windows\\runner\\run_loop.cpp"
+                },
+                {
+                    "blank": 11,
+                    "code": 22,
+                    "comment": 8,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\windows\\runner\\run_loop.h"
+                },
+                {
+                    "blank": 0,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\windows\\runner\\runner.exe.manifest"
+                },
+                {
+                    "blank": 28,
+                    "code": 64,
+                    "comment": 32,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\windows\\runner\\Runner.rc"
+                },
+                {
+                    "blank": 9,
+                    "code": 53,
+                    "comment": 2,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\windows\\runner\\utils.cpp"
+                },
+                {
+                    "blank": 5,
+                    "code": 8,
+                    "comment": 7,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\windows\\runner\\utils.h"
+                },
+                {
+                    "blank": 47,
+                    "code": 183,
+                    "comment": 16,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\windows\\runner\\win32_window.cpp"
+                },
+                {
+                    "blank": 21,
+                    "code": 48,
+                    "comment": 30,
+                    "filename": "x:\\Soft_Projects\\AppDev\\aismv_application\\windows\\runner\\win32_window.h"
+                }
+            ]
+        }
+    ]
+}

@@ -43,7 +43,7 @@ class SoilInterface {
 
     void lowerArm() {
         systemState = "Lowering Arm";
-        moistureArmServo.write(155);
+        moistureArmServo.write(165);
     }
 
     /// Gets soil Moisture percentage only once sensor is inserted through Servo. Private member.
@@ -70,21 +70,21 @@ class SoilInterface {
         EEPROM.begin(100);
         //  For Target Moisture
         EEPROM.get<float>(1, targetMoisturePercentage);
-        if (isnan(moisturePerMilliliter) || targetMoisturePercentage == NAN) {      // Initial Null check
+        if (isnan(moisturePerMilliliter) || targetMoisturePercentage == NAN || farmDirection < 0) {      // Initial Null check
             targetMoisturePercentage = -1;
             EEPROM.put<float>(1, targetMoisturePercentage);
             EEPROM.commit();
         }
         //  For Moisture per Milliliter
         EEPROM.get<float>(11, moisturePerMilliliter);
-        if (isnan(moisturePerMilliliter) || moisturePerMilliliter == NAN) {         // Initial Null Check
+        if (isnan(moisturePerMilliliter) || moisturePerMilliliter == NAN || farmDirection < 0) {         // Initial Null Check
             moisturePerMilliliter = -1;
             EEPROM.put<float>(11, moisturePerMilliliter);
             EEPROM.commit();
         }
         //  For Moisture per Milliliter
         EEPROM.get<char>(21, farmDirection);
-        if (isnan(farmDirection) || farmDirection == NAN) {         // Initial Null Check
+        if (isnan(farmDirection) || farmDirection == NAN || (farmDirection != 'l' && farmDirection != 'r')) {         // Initial Null Check
             farmDirection = 'l';
             EEPROM.put<char>(21, farmDirection);
             EEPROM.commit();
@@ -116,7 +116,7 @@ class SoilInterface {
             EEPROM.commit();
             return 0;
         }
-        if (updatedValue == 'm') {
+        if (updateType == 'm') {
             moisturePerMilliliter = updatedValue;
             EEPROM.put<float>(11, moisturePerMilliliter);
             EEPROM.commit();

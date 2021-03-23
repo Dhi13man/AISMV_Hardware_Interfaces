@@ -25,7 +25,6 @@ class SabertoothInterface {
   SabertoothInterface() {
     // For Serial Communication.
     state = "Initialized";
-    Serial2.begin(9600, SERIAL_8N1);
   }
 
   void smoothRight(int speed=400) {

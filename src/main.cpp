@@ -1,22 +1,21 @@
 #include <Arduino.h>
 
-#include "networking_backend.cpp"
+//#include "networking_backend.cpp"
+#include "aismv_operation.cpp"
 
 AISMVOperator *aismvController;
-WebServerBackendInterface *backendInterface;
-
-
- void setup() {
+Pixy2I2C pixy;
+//WebServerBackendInterface *backendInterface;
+void setup() {
   Serial.begin(9600);
-  Pixy2I2C pixy; 
-  //pixy.init();
+  Serial2.begin(9600, SERIAL_8N1);
+  pixy.init();
   //pixy.setLamp(1024, 1024);
   aismvController = new AISMVOperator(pixy);
-  backendInterface = new WebServerBackendInterface(*aismvController);
   // Network Backend Setup
-
+  //backendInterface = new WebServerBackendInterface(*aismvController);
 }
 
 void loop() {
-  //aismvController->scanTarget();
+  aismvController->scanTarget();
 }
