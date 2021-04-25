@@ -3,7 +3,7 @@
 /// Controlling interface class for Sabertooth motor driver through SERIAL communication.
 class SabertoothInterface {
   private:
-  String state;
+  String systemState;
 
   /// Sends commands to Sabertooth to move Motor 
   ///
@@ -24,58 +24,54 @@ class SabertoothInterface {
   public:
   SabertoothInterface() {
     // For Serial Communication.
-    state = "Initialized";
+    Serial2.begin(9600, SERIAL_8N1); // Responsible for communication with Sabertooth
+    systemState = "Initialized";
   }
 
-  void smoothRight(int speed=400) {
+  void smoothRight(int speed=350) {
     moveMotor(1, speed);
     moveMotor(2, 0);
-    state = "Moving Right Smoothly";
+    systemState = "Moving Right Smoothly";
   }
 
-  void smoothLeft(int speed=400) {
+  void smoothLeft(int speed=350) {
     moveMotor(2, -speed);
     moveMotor(1, 0);
-    state = "Moving Left Smoothly";
+    systemState = "Moving Left Smoothly";
   }
 
-  void hardRight(int speed=400) {
+  void hardRight(int speed=350) {
     moveMotor(1, speed);
     moveMotor(2, speed);
-    state = "Moving Hard Right";
+    systemState = "Moving Hard Right";
   }
 
-  void hardLeft(int speed=400) {
+  void hardLeft(int speed=350) {
     moveMotor(2, -speed);
     moveMotor(1, -speed);
-    state = "Moving Hard Left";
+    systemState = "Moving Hard Left";
   }
 
   void forward(int speed=400) {
     moveMotor(1, speed);
     moveMotor(2, -speed);
-    state = "Moving Forward";
+    systemState = "Moving Forward";
   }
 
   void reverse(int speed=400) {
     moveMotor(1, -speed);
     moveMotor(2, speed);
-    state = "Moving Reverse";
+    systemState = "Moving Reverse";
   }
 
   void stop() {
     moveMotor(1, 0);
     moveMotor(2, 0);
-    state = "Stopped";
+    systemState = "Stopped";
   }
 
   String getState() {
-    return state;
-  }
-
-  ~SabertoothInterface() {
-    stop();
-    Serial2.end();
+    return systemState;
   }
 };
 

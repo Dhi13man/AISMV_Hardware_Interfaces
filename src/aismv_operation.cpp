@@ -3,6 +3,8 @@
 #include "machine_vision.cpp"
 #include "soil_system.cpp"
 
+
+///  Used every internal interface to statefully operate the entirety of AISMV.
 class AISMVOperator {
 private:
   String state;
@@ -19,6 +21,9 @@ private:
 
   /// Changes every time a waterable target is seen after a non waterable target.
   char scanDirection;
+
+  /// Needed for PD Control System Implementation
+  int lastCoordinateDifference;
 
   bool scanDirectionForTime(String direction, unsigned long time = 1000) {
     state = "Scanning: " + direction;
@@ -48,17 +53,23 @@ private:
 
   void moveTowardsTarget(Block &target) {
     state = "Moving towards target";
-    if (target.m_x < 15)
+    // PD Control SYstem Implementation for Object tracking and chasing
+    int P = 10, D = 2, coordinateDifference = 190 - target.m_y;
+    if (target.m_x < 50)
       sabertoothController.hardLeft();
-    else if (target.m_x > 275)
+    else if (target.m_x > 260)
       sabertoothController.hardRight();
-    else if (target.m_x >= 40 && target.m_x <= 275) {
-      if (target.m_y < 190)
+    else if (target.m_x >= 50 && target.m_x <= 260) {
+      if (target.m_y < 190) {
         sabertoothController.forward();
+        delay(floor(float(P * (coordinateDifference) + D * (coordinateDifference - lastCoordinateDifference))/190.0 * 500));
+        lastCoordinateDifference = coordinateDifference;
+      }
       else {
         // Get over the target and then act (WATER, CHANGE LANE or END)
         sabertoothController.forward();
-        delay(2000);
+        delay(1500);
+        sabertoothController.stop();
         actBasedOnTargetType(target);
       }
     }
@@ -96,14 +107,16 @@ public:
     // Initialize Controllers
     mvController = new MVInterface(pixy);
     sabertoothController = SabertoothInterface();
-    soilController = SoilInterface(15, 2, 12);
-    obstacleSenseController = ObstacleInterface(32, 33, 35);
+    soilController = SoilInterface(33, 2, 12);
+    //obstacleSenseController = ObstacleInterface(32, 33, 35);
     isFinalTargetReached = false;
     isPreviousTargetNonWaterable = false;
+    lastCoordinateDifference = 0;
     scanDirection = soilController.getFarmDirection();
     state = "Initialized";
   }
 
+  /// Begins the AISMV Process Flow by Scanning for targets.
   void scanTarget() {
     if (isFinalTargetReached) {
       state = "Final Target Reached. Stopped";

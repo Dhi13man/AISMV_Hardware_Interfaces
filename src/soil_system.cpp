@@ -55,7 +55,7 @@ class SoilInterface {
 
     public:
     /// Initializes the Water pump Motor Driver, Servo and its pins.
-    SoilInterface(int moistureSensorPin=15, int armServoPin=2, int waterPumpMotorPin=12) {
+    SoilInterface(int moistureSensorPin=33, int armServoPin=2, int waterPumpMotorPin=12) {
         l298Controller = WaterPumpMotorDriverInterface(waterPumpMotorPin);   // Pump
         // Moisture Sensor Arm
         pinMode(armServoPin, OUTPUT);
@@ -162,9 +162,5 @@ class SoilInterface {
         l298Controller.forward();
         delay(waterTimeMilliseconds);
         l298Controller.stop();
-    }
-
-    ~SoilInterface() {
-        moistureArmServo.detach();
     }
 };

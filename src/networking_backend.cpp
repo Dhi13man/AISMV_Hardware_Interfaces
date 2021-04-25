@@ -3,13 +3,16 @@
 
 #include "aismv_operation.cpp"
 
+/// Interface Handling the IoT communication between application and Hardware. 
+///
+/// Utilizes Static IP.
 class WebServerBackendInterface {
   private:
   AsyncWebServer *server;
   
   AISMVOperator *aismv;
 
-  // Define routing
+  /// Define routing
   void restServerRouting() {
       // State of AISMV
       server->on("/", HTTP_GET, [this](AsyncWebServerRequest *request) {
@@ -42,26 +45,19 @@ class WebServerBackendInterface {
       });
   }
 
-  ~WebServerBackendInterface() {
-    server->end();
-    server->~AsyncWebServer();
-  }
-
   public:
   WebServerBackendInterface(AISMVOperator &aismvOperator) {
-    // To extract from and set properties into AISMV
+    /// To extract from and set properties into AISMV
     aismv = &aismvOperator;
     // Set Static IP address
     IPAddress local_IP(192, 168, 1, 184);
     // Set Gateway IP address
     IPAddress gateway(192, 168, 1, 1);
     IPAddress subnet(255, 255, 255, 0);
-    IPAddress primaryDNS(8, 8, 8, 8);
-    IPAddress secondaryDNS(8, 8, 4, 4);
     // Configures static IP address
-    // if (!WiFi.softAPConfig(local_IP, gateway, subnet))
-    //   Serial.println("STA Failed to configure");
-    WiFi.softAP("AISMV_Network", "eminence123");
+    if (!WiFi.softAPConfig(local_IP, gateway, subnet))
+       Serial.println("STA Failed to configure");
+    WiFi.softAP("AISMV_Comm", "eminence123");
     //Serial.println(WiFi.localIP());
     //Serial.println(WiFi.softAPIP());
 
@@ -70,6 +66,7 @@ class WebServerBackendInterface {
     startServer();
   }
 
+  /// Sets the routes and starts the server.
   void startServer() { 
     // Set server routing
     restServerRouting();
