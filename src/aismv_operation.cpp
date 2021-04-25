@@ -53,23 +53,26 @@ private:
 
   void moveTowardsTarget(Block &target) {
     state = "Moving towards target";
-    // PD Control SYstem Implementation for Object tracking and chasing
-    int P = 10, D = 2, coordinateDifference = 190 - target.m_y;
+    // PD Control System Implementation for Object tracking and chasing
+    int P = 10, D = 1000, coordinateDifference = 190 - target.m_y;
     if (target.m_x < 50)
       sabertoothController.hardLeft();
     else if (target.m_x > 260)
       sabertoothController.hardRight();
     else if (target.m_x >= 50 && target.m_x <= 260) {
       if (target.m_y < 190) {
+        // PD usage for move foward distance control.
         sabertoothController.forward();
-        delay(floor(float(P * (coordinateDifference) + D * (coordinateDifference - lastCoordinateDifference))/190.0 * 500));
+        // 190 -> Y-axis Threshold where Object almost under the bot;
+        delay(floor(float(P * (coordinateDifference) + D * (coordinateDifference - lastCoordinateDifference))/190.0));
         lastCoordinateDifference = coordinateDifference;
       }
       else {
-        // Get over the target and then act (WATER, CHANGE LANE or END)
+        // Get over the target
         sabertoothController.forward();
         delay(1500);
         sabertoothController.stop();
+        //  Act after you are over the target (WATER, CHANGE LANE or END)
         actBasedOnTargetType(target);
       }
     }
